@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tfoms-social"
+version = "0.1.0"
+description = ""
+authors = ["clfcg <leontev_dma@mail.ru>"]
+readme = "README.md"
+packages = [{include = "tfoms_social"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.8"
+pyodbc = "^4.0.35"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
